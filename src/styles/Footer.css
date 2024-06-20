@@ -1,0 +1,120 @@
+.footer {
+    padding: 100px 40px;
+}
+
+.footer-verificad {
+    max-width: 552px;
+    height: 192px;
+}
+
+.footer-linkes {
+    max-width: 552px;
+    height: 192px;
+}
+
+.footer-group {
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+}
+
+.footer-verificad__text {
+    font-size: 30px;
+    margin-top: 40px;
+    margin-bottom: 24px;
+}
+
+.footer-verificad__inp {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    padding: 10px 150px 10px 20px;
+    border-radius: 50px;
+    outline: none;
+    border: 2px solid white;
+    margin-right: 5px;
+    font-size: 20px;
+}
+
+.footer-verificad__inp::placeholder {
+    color: black;
+}
+
+.footer-verificad__emaile {
+    display: flex;
+}
+
+.footer-verificad__button {
+    border: none;
+    border-radius: 50px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    background: #ffffff;
+    padding: 15px 20px;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+.footer-verificad__button:hover{ 
+    background-color: rgb(219, 219, 219); 
+    transition: scale(1.3); 
+}
+
+.footer-linkes {
+    display: flex;
+}
+
+.company, .theme {
+    margin-right: 50px;
+}
+
+.cocial {
+    margin-right: 100px;
+}
+
+h3 {
+    font-weight: 800;
+    font-size: 25px;
+}
+
+.company  a {
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    text-decoration: none;
+    padding-top: 10px;
+}
+
+.cocial a {
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    text-decoration: none;
+    padding-top: 10px;
+}
+
+.theme a {
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    text-decoration: none;
+    padding-top: 10px;
+}
+
+.parfume-svg img{
+    width: 100%;
+    margin: 100px 0px;
+}
+
+.footer-end {
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+}
+
+
+
+
+  
+
+

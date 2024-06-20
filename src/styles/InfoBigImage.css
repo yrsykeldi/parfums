@@ -1,0 +1,43 @@
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 700px;
+    height: 280px;
+    font-weight: 300;
+    margin-left: 34vh;
+}
+
+.info-title {
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.info-title__1 {
+    font-size: 40px;
+    font-weight: 300;
+}
+
+.info-title__2 {
+    font-family: 'Merienda';
+    font-size: 45px;
+    font-weight: 300;
+    padding: 0px 0px 0px 10px;
+}
+
+.info-text {
+    padding: 0px 50px 0px 50px;
+    text-align: center;
+}
+
+.info-button {
+    background: #ABB249;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 10px 140px;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+}   

@@ -1,0 +1,110 @@
+
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
+
+.carousel-container {
+    max-width: 1440px;
+    margin: 0 auto;
+    text-align: center;
+    /* padding: 50px; */
+    /* background-color: #FFF0F7; */
+  }
+  
+  .carousel-container h2 {
+    font-weight: normal;
+    font-size: 2rem;
+    margin-bottom: 40px;
+  }
+  
+  .carousel-container h2 em {
+    font-style: italic;
+  }
+  
+  .testimonial {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+    text-align: left;
+    margin: 0 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 220px;
+    max-width: 370px;
+  }
+  
+  .stars {
+    color: #FFD700;
+    font-size: 1.2rem;
+  }
+  
+  .testimonial p {
+    font-size: 1rem;
+    margin: 10px 0;
+    flex-grow: 1;
+  }
+  
+  .profile {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .profile img {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+  }
+  
+  .profile-info {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .profile-info strong {
+    font-size: 1rem;
+  }
+  
+  .profile-info span {
+    font-size: 0.9rem;
+    color: #666;
+  }
+  
+  .slick-prev, .slick-next {
+    width: 40px;
+    height: 40px;
+    display: flex !important;
+    justify-content: space-around;
+    align-items: center;
+    background: #000000;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+    margin-top: 20px;
+  }
+  .slick-prev{
+    position: absolute;
+    top: 100%; 
+    left: 47%;
+    transform: translateX(-50%);  
+    color: #fff;
+  }
+  .slick-next{
+    position: absolute;
+    top: 100%;
+    left: 53%;
+    transform: translateX(-50%);
+  }
+  
+  .slick-prev:before, .slick-next:before {
+    display: none;
+  }
+  
+  .arrow {
+    font-size: 1.5rem;
+    color: #000;
+  }
+  
+

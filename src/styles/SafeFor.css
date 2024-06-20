@@ -1,0 +1,31 @@
+.safe-for__title-text {
+    font-size: 50px;
+    font-weight: normal;
+}
+
+.safe-for__title-cards {
+    max-width: 316px;
+    margin-top: 40px;
+}
+
+.safe-for__card-main__text {
+    margin: 3px 0px 12px 0px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.safe-for__card-info__text {
+    font-size: 17px;
+}
+
+.safe-for__card-main__text2 {
+    margin: 10px 0px 12px 0px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.safe-for__title-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

@@ -1,0 +1,43 @@
+.card-container__products-img {
+    border-radius: 20px;
+}
+
+.card-container__products {
+    width: 316px;
+    height: 563px;
+}
+
+.card-container__info {
+    text-align: center;
+    margin: 10px 0px;
+}
+
+.card-container__info-name {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.card-container__info-uesr {
+    font-size: 14px;
+    font-weight: 600;
+    height: 12px;
+    margin-top: 2px;
+}
+
+.card-container__info-prise {
+    margin-top: 16px;
+    font-weight: 400;
+}
+
+.card-containe__buttun-shop {
+    font-family: 'Manrope' sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 10px 116px;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+}
+
+
+

@@ -1,0 +1,17 @@
+.card-container__h2 {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    margin: 45px 0px 45px 0px;
+}
+.card-container__name1 {
+    padding: 7px 15px 0px 0px;
+    font-weight: 400;
+    font-size: 40px;
+}
+
+.card-container__name2 {
+    font-family: 'Merienda';
+    font-weight: 400;
+    font-size: 40px;
+}

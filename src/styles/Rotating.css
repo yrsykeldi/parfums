@@ -1,0 +1,33 @@
+.rotating-div {
+    display: flex;
+    overflow: hidden;
+    animation: moveRight 10s linear infinite;
+}
+
+@keyframes moveRight {
+    0% {
+        transform: translateX(-100%);
+    }
+    100% {
+        transform: translateX(100%);
+    }
+}
+
+
+.rotating-div__info {
+    display: flex;
+    align-items: center;
+    font-size: 35px;
+}
+
+.rotating-div__info-text_2 {
+    padding-left: 15px;
+}
+
+.rotating-div__img {
+    font-size: 70px;
+    margin: 0px 23px;
+}
+
+
+
