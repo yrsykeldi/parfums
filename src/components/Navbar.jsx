@@ -6,8 +6,11 @@ import search_icon_light from '../../src/assets/search-w.png'
 import search_icon_dark from '../../src/assets/search-b.png'
 import toogle_light from '../../src/assets/night.png'
 import toogle_dark from '../../src/assets/day.png'
+import { useNavigate } from 'react-router-dom'
 
 const Navbar = ({theme, setTheme}) => {
+
+  const navigate = useNavigate()
 
   const toogle_mod = () => {
     theme == 'light' ? setTheme('dark') : setTheme('light');
@@ -25,7 +28,7 @@ const Navbar = ({theme, setTheme}) => {
               <li>ABOUT</li>
           </ul>
 
-          <img src={theme == 'light' ? logo_light : logo_dark} alt='' className='logo'/>
+          <img style={{cursor:'pointer'}} onClick={() => navigate('/')} src={theme == 'light' ? logo_light : logo_dark} alt='' className='logo'/>
 
           <ul>
               <li>BLOG</li>
@@ -34,7 +37,7 @@ const Navbar = ({theme, setTheme}) => {
 
           <div className='search-box'>
               <input type='text' placeholder='Search'/>
-              <img src={theme == 'light' ? search_icon_light : search_icon_dark} alt=''/>
+              <img  src={theme == 'light' ? search_icon_light : search_icon_dark} alt='' />
           </div>
 
       </div>

@@ -1,4 +1,3 @@
-import { useEffect, useState } from 'react';
 import Navbar from '../components/Navbar'
 import { Outlet } from 'react-router-dom'
 import SectionTitle from '../components/SectionTitle';
@@ -10,9 +9,14 @@ function Mainlayout({theme, setTheme}) {
     <div className={`container ${theme}`}>
         <div className={theme === "light" ? 'section-1' : 'section-2'}>
             <Navbar theme={theme} setTheme={setTheme}/>
-            <SectionTitle theme={theme} />
+            <div className='detaile-slider__cards'>
+              <SectionTitle theme={theme} />
+            </div>
         </div>
         <Outlet/>
+        <div className='footer-title'>
+          <Footer />
+        </div>
     </div>
   )
 }

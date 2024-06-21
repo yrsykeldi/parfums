@@ -3,6 +3,7 @@ import Slider from 'react-slick';
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
 import '../styles/Slider.css';
+import '../styles/arrows.css'
 
 const testimonials = [
   {
@@ -28,7 +29,9 @@ const testimonials = [
   }
 ];
 
+
 const Carousel = ({theme}) => {
+  const isInDetailPage = window.location.pathname === '/detail'
   const settings = {
     dots: false,
     infinite: true,
@@ -38,6 +41,8 @@ const Carousel = ({theme}) => {
     nextArrow: <SampleNextArrow />,
     prevArrow: <SamplePrevArrow />,
   };
+
+
 
   const isDarkTheme = theme === "dark";
 
@@ -65,6 +70,9 @@ const Carousel = ({theme}) => {
           </div>
         ))}
       </Slider>
+      <style>
+  
+      </style>
     </div>
   );
 };
@@ -74,7 +82,7 @@ const SampleNextArrow = (props) => {
   return (
     <div
       className={className}
-      style={{ ...style, display: 'block', background: 'transparent' }}
+      style={{ ...style, display: 'block', background: 'color' }}
       onClick={onClick}
     >
       <span className="arrow">&#x2192;</span>
@@ -87,7 +95,7 @@ const SamplePrevArrow = (props) => {
   return (
     <div
       className={className}
-      style={{ ...style, display: 'block', background: 'transparent' }}
+      style={{ ...style, display: 'block', background: 'color' }}
       onClick={onClick}
     >
       <span className="arrow">&#x2190;</span>

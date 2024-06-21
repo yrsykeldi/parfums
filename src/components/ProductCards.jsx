@@ -1,7 +1,9 @@
 import '../styles/ProductCards.css';
 import ParfumMeadow from '../assets/cards/PARFUM-Meadow.jpg';
+import { useNavigate } from 'react-router-dom';
 
 function ProductCards({ theme }) {
+    const navigate = useNavigate()
 
     const containerTextStyle = {
         color:  theme === 'dark' ? 'white' : 'black'
@@ -13,7 +15,7 @@ function ProductCards({ theme }) {
     };
 
     return (
-        <div className={`cards`} >
+        <div style={{cursor: 'pointer'}} onClick={() => navigate('/detail')} className={`cards`} >
             <div className={`card-container__products`}>
                 <div className={`card-container__products-imgs`}>
                     <img className={`card-container__products-img`} src={ParfumMeadow} alt="" />

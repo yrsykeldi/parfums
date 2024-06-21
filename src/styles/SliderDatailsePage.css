@@ -1,0 +1,9 @@
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
+
+.slider-detaile-page {
+    max-width: 340px;
+    height: 400px;
+    margin-top: 50px;
+    border-radius: 25px;
+}

@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react';
 import Brands from '../components/Brands';
-import ProductCards from '../components/ProductCards';
 import "../styles/main.css";
 import ProductList from '../components/ProductList';
 import SectionCardTitle from '../components/SectionCardTitle';
@@ -10,7 +9,6 @@ import Rotating from '../components/Rotating';
 import SafeFor from '../components/SafeFor';
 import SafeForImage from '../components/SafeForImage';
 import Slider from '../components/Slider';
-import Footer from '../components/Footer';
 
 function HomePage({theme}) {
 
@@ -40,9 +38,6 @@ function HomePage({theme}) {
       </div>
     </div>
     <Slider theme={theme}/>
-    <div className='footer-title'>
-      <Footer />
-    </div>
     </>
   )
 }

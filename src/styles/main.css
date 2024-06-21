@@ -73,6 +73,10 @@
     border-radius: 20px;
   }
 
+  .detaile-slider__cards {
+    margin-top: 50px;
+  }
+
   /* arrow background color */
 
   .slick-arrow {
